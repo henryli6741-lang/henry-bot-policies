@@ -1,0 +1,60 @@
+卄乇几尺ㄚ — Privacy Policy
+
+Effective date: 22 October 2026
+
+ 1. Introduction
+
+This Privacy Policy explains how 卄乇几尺ㄚ (“the Bot”) handles information when used on Discord servers.
+
+ 2. Information Stored
+
+Depending on the features enabled by a server, the Bot may store the following information in its SQLite database, `bot_data.db`:
+
+- **Discord identifiers:** Server IDs, user IDs, moderator IDs, and channel IDs needed to provide Bot features.
+- **Moderation records:** Warning reasons, the users involved, the moderator who issued a warning, and the date and time.
+- **Server settings:** Configured log and welcome channels, welcome message text, autorole settings, and automatic moderation preferences.
+- **Reminders:** Reminder text, the requesting user's ID, the relevant channel and server IDs, and the scheduled time.
+
+The Bot may also process Discord messages and member information to provide automatic moderation, welcome messages, join and leave logs, and commands requested by users.
+
+ 3. How Information Is Used
+
+Information is used to:
+
+- Provide the Bot's commands and features.
+- Maintain moderation records and server configuration.
+- Schedule and deliver reminders.
+- Detect and respond to spam or Discord invite links when automatic moderation is enabled.
+- Record relevant moderation and server membership events.
+
+The Bot operator should not use this information for unrelated purposes.
+
+4. Storage and Security
+
+The Bot uses a local SQLite database named `bot_data.db` for the records described above. The database is stored wherever the Bot is hosted.
+
+The Bot operator is responsible for protecting access to the hosting environment and database. No method of electronic storage or transmission can be guaranteed completely secure.
+
+5. Data Retention and Deletion
+
+Information may remain in the database until it is deleted by the Bot operator or through an applicable feature. Stopping or removing the Bot does not necessarily delete an existing database or its backups.
+
+If you have a question or request concerning stored information, contact the Bot operator through the Discord server where the Bot is used. Requests may require sufficient information to identify the relevant records.
+
+6. Sharing of Information
+
+The Bot's stored database is not intended to be publicly accessible. Information may be processed through Discord's services when the Bot operates and sends messages or performs actions. The Bot operator does not intend to sell stored personal information.
+
+Hosting providers or other services may have access to data as part of operating the Bot, depending on the hosting arrangement.
+
+7. Children's Privacy
+
+The Bot is intended to be used in accordance with Discord's minimum age requirements and applicable laws. The Bot operator does not intentionally collect additional personal information from children beyond information processed to operate the Bot.
+
+ 8. Changes to This Policy
+
+This Privacy Policy may be updated when the Bot's features or data practices change. The latest version will be published at the same URL.
+
+ 9. Contact
+
+For questions or requests about this Privacy Policy or information handled by the Bot, contact the Bot operator through the Discord server where the Bot is used.
